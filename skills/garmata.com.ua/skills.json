@@ -1,0 +1,75 @@
+{
+  "site": "garmata.com.ua",
+  "version": "0.1.0",
+  "description": "Garmata admin panel (Horoshop engine) - skills in development",
+  "skills": [
+    {
+      "id": "add-product",
+      "name": "Add Product",
+      "description": "Add a new product to the catalog",
+      "task": "TODO",
+      "params": [
+        { "name": "name", "type": "string", "label": "Product Name" },
+        { "name": "price", "type": "string", "label": "Price" },
+        { "name": "sku", "type": "string", "label": "SKU", "required": false }
+      ],
+      "category": "catalog",
+      "status": "draft"
+    },
+    {
+      "id": "edit-product",
+      "name": "Edit Product",
+      "description": "Find and edit an existing product",
+      "task": "TODO",
+      "params": [
+        { "name": "sku", "type": "string", "label": "SKU or product name" }
+      ],
+      "category": "catalog",
+      "status": "draft"
+    },
+    {
+      "id": "update-price",
+      "name": "Update Product Price",
+      "description": "Update the price of a product by SKU",
+      "task": "TODO",
+      "params": [
+        { "name": "sku", "type": "string", "label": "SKU" },
+        { "name": "price", "type": "string", "label": "New Price" }
+      ],
+      "category": "catalog",
+      "status": "draft"
+    },
+    {
+      "id": "update-stock",
+      "name": "Update Stock Quantity",
+      "description": "Update stock quantity for a product",
+      "task": "TODO",
+      "params": [
+        { "name": "sku", "type": "string", "label": "SKU" },
+        { "name": "quantity", "type": "string", "label": "Quantity" }
+      ],
+      "category": "catalog",
+      "status": "draft"
+    },
+    {
+      "id": "view-orders",
+      "name": "View Orders",
+      "description": "Navigate to the orders list",
+      "task": "TODO",
+      "params": [],
+      "category": "orders",
+      "status": "draft"
+    },
+    {
+      "id": "process-order",
+      "name": "Process Order",
+      "description": "Find and process a specific order",
+      "task": "TODO",
+      "params": [
+        { "name": "order_id", "type": "string", "label": "Order ID or number" }
+      ],
+      "category": "orders",
+      "status": "draft"
+    }
+  ]
+}

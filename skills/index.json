@@ -3,6 +3,12 @@
   "updated": "2026-03-12",
   "sites": [
     {
+      "domain": "garmata.com.ua",
+      "file": "skills/garmata.com.ua/skills.json",
+      "name": "Garmata Admin (Horoshop)",
+      "description": "Garmata.com.ua admin panel - catalog and orders management"
+    },
+    {
       "domain": "github.com",
       "file": "skills/github.com/skills.json",
       "name": "GitHub",
