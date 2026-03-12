@@ -1,0 +1,62 @@
+{
+  "site": "github.com",
+  "version": "1.0.0",
+  "skills": [
+    {
+      "id": "create-issue",
+      "name": "Create Issue",
+      "description": "Create a new GitHub issue in the current repository",
+      "task": "Click 'Issues' tab, then click 'New issue' button, fill the title with '${title}', fill the description with '${description}', then click 'Submit new issue'",
+      "params": [
+        { "name": "title", "type": "string", "label": "Issue Title" },
+        { "name": "description", "type": "string", "label": "Description", "multiline": true, "required": false }
+      ],
+      "category": "issues"
+    },
+    {
+      "id": "create-pr",
+      "name": "Create Pull Request",
+      "description": "Create a new pull request from current branch",
+      "task": "Click 'Pull requests' tab, click 'New pull request', set the title to '${title}', fill description with '${description}', then click 'Create pull request'",
+      "params": [
+        { "name": "title", "type": "string", "label": "PR Title" },
+        { "name": "description", "type": "string", "label": "Description", "multiline": true, "required": false }
+      ],
+      "category": "pull-requests"
+    },
+    {
+      "id": "star-repo",
+      "name": "Star Repository",
+      "description": "Star the current repository",
+      "task": "Find and click the 'Star' button on the repository page",
+      "params": [],
+      "category": "general"
+    },
+    {
+      "id": "fork-repo",
+      "name": "Fork Repository",
+      "description": "Fork the current repository to your account",
+      "task": "Find and click the 'Fork' button, then click 'Create fork' in the dialog",
+      "params": [],
+      "category": "general"
+    },
+    {
+      "id": "search-code",
+      "name": "Search in Repository",
+      "description": "Search for code or text in the current repository",
+      "task": "Press '/' or click the search box, type '${query}' and press Enter to search in this repository",
+      "params": [
+        { "name": "query", "type": "string", "label": "Search Query" }
+      ],
+      "category": "search"
+    },
+    {
+      "id": "close-issue",
+      "name": "Close Issue",
+      "description": "Close the currently open issue",
+      "task": "Scroll to the bottom of the issue, find and click 'Close issue' button",
+      "params": [],
+      "category": "issues"
+    }
+  ]
+}

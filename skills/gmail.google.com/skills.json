@@ -1,0 +1,46 @@
+{
+  "site": "gmail.google.com",
+  "version": "1.0.0",
+  "skills": [
+    {
+      "id": "compose-email",
+      "name": "Compose Email",
+      "description": "Compose and send a new email",
+      "task": "Click 'Compose' button, fill 'To' field with '${to}', fill 'Subject' with '${subject}', type the body '${body}', then click 'Send'",
+      "params": [
+        { "name": "to", "type": "string", "label": "To (email address)" },
+        { "name": "subject", "type": "string", "label": "Subject" },
+        { "name": "body", "type": "string", "label": "Email Body", "multiline": true }
+      ],
+      "category": "compose"
+    },
+    {
+      "id": "search-emails",
+      "name": "Search Emails",
+      "description": "Search for emails by keyword",
+      "task": "Click the search bar, type '${query}' and press Enter",
+      "params": [
+        { "name": "query", "type": "string", "label": "Search Query" }
+      ],
+      "category": "search"
+    },
+    {
+      "id": "mark-all-read",
+      "name": "Mark All as Read",
+      "description": "Mark all emails in inbox as read",
+      "task": "Click the checkbox next to 'Select all', then click 'More options' and select 'Mark all as read'",
+      "params": [],
+      "category": "organize"
+    },
+    {
+      "id": "reply-email",
+      "name": "Reply to Current Email",
+      "description": "Reply to the currently open email",
+      "task": "Click 'Reply' button in the open email, type '${message}' in the reply box, then click 'Send'",
+      "params": [
+        { "name": "message", "type": "string", "label": "Reply Message", "multiline": true }
+      ],
+      "category": "compose"
+    }
+  ]
+}
