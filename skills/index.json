@@ -3,6 +3,12 @@
   "updated": "2026-03-12",
   "sites": [
     {
+      "domain": "s.erpjs.biz",
+      "file": "skills/s.erpjs.biz/skills.json",
+      "name": "ERP System",
+      "description": "ERP system — navigation, panels, bookmarks"
+    },
+    {
       "domain": "garmata.com.ua",
       "file": "skills/garmata.com.ua/skills.json",
       "name": "Garmata Admin (Horoshop)",

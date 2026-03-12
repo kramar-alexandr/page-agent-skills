@@ -1,0 +1,25 @@
+{
+  "site": "s.erpjs.biz",
+  "version": "0.1.0",
+  "description": "ERP system at s.erpjs.biz — panel navigation and shortcuts",
+  "skills": [
+    {
+      "id": "open-bookmarks",
+      "name": "Open Bookmarks Panel",
+      "description": "Open the bookmarks/links panel",
+      "task": "Find the element with id 'linkMenuBtn' and click it to open the bookmarks panel",
+      "params": [],
+      "category": "navigation",
+      "status": "stable"
+    },
+    {
+      "id": "close-bookmarks",
+      "name": "Close Bookmarks Panel",
+      "description": "Close the bookmarks/links panel if it is open",
+      "task": "Find the element with id 'linkMenuBtn' and click it to close the bookmarks panel",
+      "params": [],
+      "category": "navigation",
+      "status": "stable"
+    }
+  ]
+}
